@@ -1,0 +1,17 @@
+# Ignore the Python Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore PyCharm internal setting logs
+.idea/
+
+# Ignore local secret credentials
+.env
+
+# Ignore heavy local Vector DB binary blobs
+*.faiss
+*.pkl
+backend/app/faiss_index/
+backend/faiss_db/

@@ -1,0 +1,36 @@
+{
+  "Domain 1: Identify AI Concepts and Responsibilities (40-45%)": [
+    "Describe a scenario where an AI model lacks 'Inclusiveness' under Microsoft's Responsible AI principles, and how an engineer can mitigate it.",
+    "Explain the conceptual and operational differences between keyword extraction, entity recognition, and sentiment analysis in Azure text analysis workloads.",
+    "What core configuration parameters must you adjust when deploying a generative AI model to balance creative variation against deterministic correctness?",
+    "Describe the key features and processing differences between speech recognition (Speech-to-Text) and speech synthesis (Text-to-Speech) workloads.",
+    "Explain the difference between transparency and accountability in Microsoft's Responsible AI framework using an automated credit-scoring system example.",
+    "How does the concept of 'Reliability and Safety' apply when deploying a custom computer vision model for automated quality control in a manufacturing plant?",
+    "Define the six core pillars of Microsoft's Responsible AI framework and provide a 1-sentence engineering challenge associated with implementing each pillar.",
+    "What is a 'Cross-Domain' mismatch error in natural language processing, and how can training dataset bias accidentally trigger it?",
+    "Explain how semantic search differs fundamentally from traditional keyword-based lexical search when retrieving context for an AI-901 NLP workload.",
+    "Describe the core technical characteristics of a multimodal model versus a single-modality transformer network.",
+    "What are the privacy and security guardrails required by Microsoft's AI principles when handling personally identifiable information (PII) in conversational AI data logs?",
+    "Explain how tokenization algorithms break down text input and how sub-word tokens impact the processing efficiency of Azure text analytics.",
+    "Describe the difference between an image classification workload and an object detection workload in Azure Computer Vision, specifically regarding their outputs.",
+    "What are the technical and ethical risks of data drift over time, and which Responsible AI principle dictates that you must continuously monitor for it?"
+  ],
+  "Domain 2: Implement AI Solutions by using Microsoft Foundry (55-60%)": [
+    "Explain the step-by-step process of using Azure Content Understanding features within Microsoft Foundry to extract a structured data schema from complex files.",
+    "How do you build a lightweight application that handles text analysis and responds to spoken prompts using a deployed multimodal model in Microsoft Foundry?",
+    "Describe how to configure and execute a system prompt that interprets visual input (images) using a multimodal model deployed inside a Microsoft Foundry project.",
+    "What is the exact architectural workflow for provisioning a single Foundry resource with projects, and how does it replace the older Hub and Azure OpenAI setup?",
+    "Explain how data engineers leverage the security boundaries of Microsoft Foundry to ground a model using RAG without exposing sensitive underlying enterprise source files.",
+    "Describe the process of evaluating a deployed model's performance metrics directly inside the Microsoft Foundry workspace before pushing it to a production endpoint.",
+    "What is the exact purpose of a 'System Prompt' in Microsoft Foundry, and how does it differ operationally from a regular 'User Prompt' during inference?",
+    "How do you establish a secure vector index endpoint within a Microsoft Foundry project to connect raw documentation blobs to a generative agent?",
+    "Explain the configuration steps required to set up a content safety filter inside Microsoft Foundry to block hate speech and jailbreak attempts.",
+    "What is the role of an API endpoint key and target URL when connecting an external Python application to a model hosted inside a Microsoft Foundry project?",
+    "Describe how to execute a batch evaluation job across a test dataset inside Microsoft Foundry to calculate grounding and relevance scores.",
+    "Explain the step-by-step process of fine-tuning a base model's weights inside a Microsoft Foundry workspace using a custom training JSONL file.",
+    "How does the Microsoft Foundry project structure isolate billing, data access permissions, and model deployments across different enterprise teams?",
+    "What are the technical steps required to stitch together an Azure Speech resource and a Microsoft Foundry LLM deployment to create a low-latency voice assistant?",
+    "Explain the use of 'Temperature' and 'Top_P' configuration sliders inside the Microsoft Foundry playground interface and how they alter generation behavior.",
+    "How do you export a finalized workflow or customized pipeline model from Microsoft Foundry out to a production-ready containerized environment?"
+  ]
+}
