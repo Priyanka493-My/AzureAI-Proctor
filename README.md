@@ -39,4 +39,12 @@ AzureAI-Proctor/
 
 Here is the design layout for the AzureAI-Proctor local RAG and evaluation pipeline:
 
-![Architecture Diagram](architecture_diagram.png)
+![Architecture Diagram](./architecture_diagram.png)
+
+# AzureAI-Proctor
+
+Turn automated proctoring into a gamified, deterministic experience for the Microsoft AI-901 Blueprint exam.
+
+## 🎥 **[WATCH THE OFFICIAL DEMO VIDEO HERE] (https://youtu.be/ka6X3y4ijsQ)**
+
+---
