@@ -34,3 +34,9 @@ AzureAI-Proctor/
 │
 ├── .gitignore                 # Shields api keys and local data buffers
 └── README.md                  # System operation mapping document
+
+## System Architecture
+
+Here is the design layout for the AzureAI-Proctor local RAG and evaluation pipeline:
+
+![Architecture Diagram](architecture_diagram.png)
