@@ -13,6 +13,11 @@ The application divides front-end visual states from core algorithmic processing
 3. **Intel Layer (Foundry IQ):** Executes semantic document retrieval across syllabus chunks using a local vector store, feeding context blocks as ground-truth limits to the reasoning agent.
 4. **Judge Brain (LLMJudge):** Leverages a fast language model endpoint under a low deterministic temperature (`0.1`) to score and parse categorical student outputs.
 
+### Pipeline Layout
+Here is the design layout for the AzureAI-Proctor local RAG and evaluation pipeline:
+
+![Architecture Diagram](./architecture_diagram.png)
+
 ---
 
 ## 🛠️ Repository File Structures
@@ -34,15 +39,12 @@ AzureAI-Proctor/
 │
 ├── .gitignore                 # Shields api keys and local data buffers
 └── README.md                  # System operation mapping document
+```
 
-## System Architecture
+---
 
-Here is the design layout for the AzureAI-Proctor local RAG and evaluation pipeline:
-
-![Architecture Diagram](./architecture_diagram.png)
-
-# AzureAI-Proctor
+## 🎥 Project Demonstration
 
 Turn automated proctoring into a gamified, deterministic experience for the Microsoft AI-901 Blueprint exam.
 
-## 🎥 [WATCH THE OFFICIAL DEMO VIDEO HERE](https://youtu.be/ka6X3y4ijsQ)
+### 👉 [WATCH THE OFFICIAL DEMO VIDEO HERE](https://youtu.be/ka6X3y4ijsQ)
