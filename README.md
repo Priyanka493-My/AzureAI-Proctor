@@ -45,6 +45,7 @@ Here is the design layout for the AzureAI-Proctor local RAG and evaluation pipel
 
 Turn automated proctoring into a gamified, deterministic experience for the Microsoft AI-901 Blueprint exam.
 
-## 🎥 **[WATCH THE OFFICIAL DEMO VIDEO HERE] (https://youtu.be/ka6X3y4ijsQ)**
+## 🎥 **[WATCH THE OFFICIAL DEMO VIDEO HERE](https://youtu.be/ka6X3y4ijsQ)**
+
 
 ---
